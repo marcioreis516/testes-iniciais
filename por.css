@@ -35,8 +35,15 @@ main{
 
 }
 .s1-in:hover{
- 
-animation: backwards;
+    transform: scale(1.02);
+    transition: 0.5s;
+    background-color:  rgb(42, 78, 110);
+    color: rgb(208, 208, 208);
+}
+a:hover{
+    transition: 0,6s;
+    color: aliceblue;
+
 }
 
 .s1-in p{
