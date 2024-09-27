@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Vertical</title>
+    <style>
+        /* Estilo básico para o menu e layout */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+        }
+        
+        /* Estilo para a barra lateral do menu */
+        .menu {
+            width: 200px;
+            background-color: #333;
+            color: white;
+            height: 100vh; /* Altura total da visualização */
+            position: fixed; /* Fixo à esquerda */
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+        }
+        
+        /* Estilo para os itens do menu */
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .menu ul li {
+            margin: 0;
+        }
+        
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 10px 20px;
+            border-bottom: 1px solid #444;
+        }
+        
+        .menu ul li a:hover {
+            background-color: #575757;
+        }
+        
+        /* Estilo para o conteúdo principal */
+        .main-content {
+            margin-left: 220px; /* Espaço suficiente para o menu lateral */
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Bem-vindo ao meu site doido </h1>
+        <p>  aqui escreverei algum conteúdo</p>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Conteúdo da página inicial.</p>
+        </section>
+        <section id="about">
+            <h2>Sobre</h2>
+            <p>Informações sobre a o dono.</p>
+        </section>
+        <section id="services">
+            <h2>Serviços</h2>
+            <p>Descrição dos serviços oferecidos.</p>
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <p>Informações de contato.</p>
+        </section>
+    </div>
+</body>
+</html>

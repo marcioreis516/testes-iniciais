@@ -1,0 +1,21 @@
+
+.prin{
+    text-align: center;
+    background-color: rgb(23, 50, 87);
+    width: 25vw;
+    flex-direction: row;
+    height: 20vh
+}
+#nu1{
+    background-color: black;
+    color: aliceblue;
+}
+#nu2{
+    background-color: black;
+    color: aliceblue;
+}
+#saida{
+    background-color: rgb(252, 254, 255);
+    width: 10vw;
+    margin-left: 7vw;
+}
